@@ -18,6 +18,7 @@ import { MaterialComponentsModule } from './shared/material-components/material-
 import { UnauthorizedComponent } from './components/unauthorized/unauthorized.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SignupComponent } from './auth/signup/signup.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialComponentsModule
+    MaterialComponentsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

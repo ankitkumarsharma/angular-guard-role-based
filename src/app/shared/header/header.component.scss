@@ -5,6 +5,7 @@
       .nav-item{
         .nav-link{
           color: #fff;
+          cursor: pointer;
           &.active-link{
             font-weight: 500;
             color: #000;
