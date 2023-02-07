@@ -1,0 +1,16 @@
+.navbar{
+  margin-bottom: 30px;
+  .navbar-collapse{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          color: #fff;
+          &.active-link{
+            font-weight: 500;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
